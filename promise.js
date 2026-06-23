@@ -1,16 +1,16 @@
-const fetchUser = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const error = false;
-      console.log("user fetched");
-      if (error) {
-        reject({ message: "User fetch failed" });
-      } else {
-        resolve({ _id: 1, name: "John Doe", email: "john@gmail.com" });
-      }
-    }, 4000);
-  });
-};
+// const fetchUser = () => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const error = false;
+//       console.log("user fetched");
+//       if (error) {
+//         reject({ message: "User fetch failed" });
+//       } else {
+//         resolve({ _id: 1, name: "John Doe", email: "john@gmail.com" });
+//       }
+//     }, 4000);
+//   });
+// };
 
 const fetchPosts = (userId) => {
   return new Promise((resolve, reject) => {
