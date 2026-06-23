@@ -32,6 +32,13 @@
 
 // *git branch-> list all local branches
 // * git branch <branch name> create new branch</branch>
-// *git switch <branch name>
+// *git switch <branch name> --> switch branch
+// * git switch -c <branch name>  --> create and switch branch
+// * git branch -d <branch  name> --> delete local branch
+
+// </branch>
 // * git merge <branch name>
+
+// * git stash
+// * git stash pop
 // </branch>
