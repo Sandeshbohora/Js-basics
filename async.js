@@ -1,18 +1,12 @@
-// * synchronous programming 
+// * synchronous programming
 
-
-
-// * asynchronous programming 
-
+// * asynchronous programming
 
 // console.log("Start");
 
-
-
-// const timer_id = setTimeout(() => {
-//     console.log("processing");
-// }, 2000);
-
+const timer_id = setTimeout(() => {
+  console.log("processing");
+}, 2000);
 
 // // // settimeout(callback,timeout)
 // // setTimeout(() => {
@@ -23,6 +17,6 @@
 // // console.log("processing");
 // console.log("end");
 
-console.log("200",padStart(6, "0"));
+console.log("200", padStart(6, "0"));
 
- const interval 
+const interval;
